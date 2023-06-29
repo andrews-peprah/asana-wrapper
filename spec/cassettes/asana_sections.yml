@@ -18,7 +18,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 1/8253796198094:49595a715371e561e8980e052543531d
+      - Bearer 123456
       X-Asana-Client-Lib:
       - ruby-asana
       X-Asana-Client-Lib-Version:
@@ -88,7 +88,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 1/8253796198094:49595a715371e561e8980e052543531d
+      - Bearer 123456
       X-Asana-Client-Lib:
       - ruby-asana
       X-Asana-Client-Lib-Version:
