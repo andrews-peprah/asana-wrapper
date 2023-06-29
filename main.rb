@@ -1,9 +1,10 @@
 require_relative 'lib/asana'
 
-client = Asana::Client.new(personal_access_token: '1/8253796198094:49595a715371e561e8980e052543531d')
+client = Asana::Client.new(personal_access_token: ENV.fetch('ASANA_PERSONAL_ACCESS_TOKEN', ''))
 
 # Get project
 projects = client.projects.all
+pp projects
 
 # Get sections in project
 sections = client.sections.all(project_gid: projects['data'].first['gid'])

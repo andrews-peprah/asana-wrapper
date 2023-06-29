@@ -1,0 +1,213 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://app.asana.com/api/1.0/projects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Asana Ruby Client/0.0.1
+      Host:
+      - app.asana.com
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer 1/8253796198094:49595a715371e561e8980e052543531d
+      X-Asana-Client-Lib:
+      - ruby-asana
+      X-Asana-Client-Lib-Version:
+      - 0.0.1
+      X-Asana-Client-Name:
+      - ruby-asana
+      X-Asana-Client-Version:
+      - 0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 29 Jun 2023 04:12:42 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - report-uri https://app.asana.com/-/csp_report?report_only=false;default-src
+        'none';frame-src 'none';frame-ancestors 'none'
+      X-Asana-Api-Version:
+      - '1.1'
+      Asana-Change:
+      - name=new_goal_memberships;info=https://forum.asana.com/t/launched-team-sharing-for-goals/378601;affected=true
+      - name=new_user_task_lists;info=https://forum.asana.com/t/update-on-our-planned-api-changes-to-user-task-lists-a-k-a-my-tasks/103828
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Datacenter-Time-End:
+      - '1688011962.032'
+      X-Loadbalancer:
+      - prod-lb000.ec2
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"gid":"1201488462344546","name":"ShopStorm","resource_type":"project"},{"gid":"1201631597770420","name":"Matoadi","resource_type":"project"},{"gid":"1201956690186726","name":"MG&R
+        Solutions Limited","resource_type":"project"},{"gid":"1200468344109913","name":"Software
+        Consultancy","resource_type":"project"}]}'
+  recorded_at: Thu, 29 Jun 2023 04:12:39 GMT
+- request:
+    method: get
+    uri: https://app.asana.com/api/1.0/projects/1201488462344546/sections
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Asana Ruby Client/0.0.1
+      Host:
+      - app.asana.com
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer 1/8253796198094:49595a715371e561e8980e052543531d
+      X-Asana-Client-Lib:
+      - ruby-asana
+      X-Asana-Client-Lib-Version:
+      - 0.0.1
+      X-Asana-Client-Name:
+      - ruby-asana
+      X-Asana-Client-Version:
+      - 0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 29 Jun 2023 04:12:43 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - report-uri https://app.asana.com/-/csp_report?report_only=false;default-src
+        'none';frame-src 'none';frame-ancestors 'none'
+      X-Asana-Api-Version:
+      - '1.1'
+      Asana-Change:
+      - name=new_goal_memberships;info=https://forum.asana.com/t/launched-team-sharing-for-goals/378601;affected=true
+      - name=new_user_task_lists;info=https://forum.asana.com/t/update-on-our-planned-api-changes-to-user-task-lists-a-k-a-my-tasks/103828
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Datacenter-Time-End:
+      - '1688011963.141'
+      X-Loadbalancer:
+      - prod-lb006.ec2
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"gid":"1201488462344547","name":"To do","resource_type":"section"},{"gid":"1201488462344551","name":"In
+        progress","resource_type":"section"},{"gid":"1201488462344553","name":"In
+        Review","resource_type":"section"},{"gid":"1201488462344554","name":"In Staging","resource_type":"section"},{"gid":"1201488462344555","name":"In
+        Production","resource_type":"section"},{"gid":"1201488462344552","name":"Complete","resource_type":"section"}]}'
+  recorded_at: Thu, 29 Jun 2023 04:12:40 GMT
+- request:
+    method: get
+    uri: https://app.asana.com/api/1.0/sections/1201488462344547
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Asana Ruby Client/0.0.1
+      Host:
+      - app.asana.com
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer 1/8253796198094:49595a715371e561e8980e052543531d
+      X-Asana-Client-Lib:
+      - ruby-asana
+      X-Asana-Client-Lib-Version:
+      - 0.0.1
+      X-Asana-Client-Name:
+      - ruby-asana
+      X-Asana-Client-Version:
+      - 0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 29 Jun 2023 04:12:44 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - report-uri https://app.asana.com/-/csp_report?report_only=false;default-src
+        'none';frame-src 'none';frame-ancestors 'none'
+      X-Asana-Api-Version:
+      - '1.1'
+      Asana-Change:
+      - name=new_goal_memberships;info=https://forum.asana.com/t/launched-team-sharing-for-goals/378601;affected=true
+      - name=new_user_task_lists;info=https://forum.asana.com/t/update-on-our-planned-api-changes-to-user-task-lists-a-k-a-my-tasks/103828
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Datacenter-Time-End:
+      - '1688011964.848'
+      X-Loadbalancer:
+      - prod-lb006.ec2
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":{"gid":"1201488462344547","created_at":"2021-12-08T17:23:06.077Z","name":"To
+        do","project":{"gid":"1201488462344546","name":"ShopStorm","resource_type":"project"},"resource_type":"section"}}'
+  recorded_at: Thu, 29 Jun 2023 04:12:41 GMT
+recorded_with: VCR 6.0.0
